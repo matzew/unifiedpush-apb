@@ -110,7 +110,7 @@
       service: ups
     containers:
     - name: ups
-      image: 'docker.io/aerogear/unifiedpush-wildfly:{{ ups_image_version }}'
+      image: 'docker.io/matzew/unifiedpush-wildfly:{{ ups_image_version }}'
       env:
       - name: MYSQL_USER
         value: "{{ MYSQL_USER }}"
